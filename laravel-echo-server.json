@@ -1,0 +1,39 @@
+{
+	"authHost": "https://chat-inertia-echo.local:8443",
+	"authEndpoint": "/broadcasting/auth",
+	"clients": [
+		{
+			"appId": "0fd65433365996dc",
+			"key": "4a181602d5feb884843e2d6741aa9a9e"
+		}
+	],
+	"database": "redis",
+	"databaseConfig": {
+        "redis": {
+            "keyPrefix": "chat_inertia_echolocal_database_"
+        },
+		"sqlite": {
+			"databasePath": "/database/laravel-echo-server.sqlite"
+		}
+	},
+	"devMode": true,
+	"host": null,
+	"port": "6001",
+	"protocol": "https",
+	"socketio": {},
+	"secureOptions": 67108864,
+	"sslCertPath": "C:/laragon/etc/ssl/laragon.crt",
+	"sslKeyPath": "C:/laragon/etc/ssl/laragon.key",
+	"sslCertChainPath": "",
+	"sslPassphrase": "",
+	"subscribers": {
+		"http": true,
+		"redis": true
+	},
+	"apiOriginAllow": {
+		"allowCors": false,
+		"allowOrigin": "",
+		"allowMethods": "",
+		"allowHeaders": ""
+	}
+}
